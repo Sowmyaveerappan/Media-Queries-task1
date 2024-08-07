@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: azure;
+    padding: 10px;
+}
+.navbar__links{
+    display: flex;
+    gap: 10px;
+    
+}
+@media screen and (max-width:600px){
+ .navbar__links{
+        display: none;
+    }
+    
+}
